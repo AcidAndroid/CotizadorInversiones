@@ -1,0 +1,14 @@
+header{
+    background-color: rgb(109, 193, 64);
+}
+footer{
+    background-color: rgb(109, 193, 64);
+}
+#logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.section-page{
+    margin-bottom: 5%;
+}

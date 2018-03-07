@@ -10,18 +10,46 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="media/images/dollar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/main.css">
     <title>Demo Cotizador Inversiones</title>    
 
 </head>
 <body>
 
     <div class="container">
-        <nav>
-            
-        </nav>
+        <nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" data-toggle="tooltip" data-placement="bottom"  title="Ahorra a lo loco YA!" href="#">
+                <img id="logo" src="media/images/logo3.png" class="d-inline-block align-top" alt="Ahorra a lo loco YA!" srcset="">
+               
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Inicio </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Cotizador inversión</a>
+                </li> 
+                <li class="nav-item active">
+                        <a class="nav-link" href="#">Cotizador crédito</a>
+                      </li> 
+                      <li class="nav-item active">
+                            <a class="nav-link" href="#">Tramitar</a>
+                          </li>                                
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
         <section>
-                <div class="row">
-                    <h3>Simulador de Plazo Fijo: Pagaré con Rendimiento Liquidable al Vencimiento (PRLV)</h3>
+                <div id="" class="row alert alert-dark section-page">
+                    <h4>Simulador de Plazo Fijo: (PRLV) Pagaré con Rendimiento Liquidable al Vencimiento</h4>
                 </div>
                 <div id="cotizador" class="row">
                     <div id="variables" class="col-9">
@@ -134,11 +162,15 @@
                 </div>
                 <div class="row"></div>
         </section>
-        <footer>
-            <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6"></div>
-            </div>
+        <footer class="row alert">           
+                <div class="col-12 col-md-6"><p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequatur numquam necessitatibus quia excepturi sapiente maxime tempora. Unde necessitatibus quod dolorem ab quae? Rerum ipsa illum delectus dolorum nulla quidem?
+                </p> </div>
+                <div class="col-12 col-md-6">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat debitis magnam non repudiandae a voluptatibus aliquam doloribus architecto hic maxime? Blanditiis ducimus excepturi amet fuga beatae repellat laborum impedit soluta?
+                    </p>
+                </div>           
         </footer>
         <div class="row"></div>
     </div>
@@ -149,6 +181,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 </body>
 </html>
 

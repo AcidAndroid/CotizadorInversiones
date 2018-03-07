@@ -15,6 +15,133 @@
 </head>
 <body>
 
+    <div class="container">
+        <nav>
+            
+        </nav>
+        <section>
+                <div class="row">
+                    <h3>Simulador de Plazo Fijo: Pagaré con Rendimiento Liquidable al Vencimiento (PRLV)</h3>
+                </div>
+                <div id="cotizador" class="row">
+                    <div id="variables" class="col-9">
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="monto-inversion">Monto de tu inversión</label>                                 
+                            </div>
+                            <div class="col-3">
+                                    <input type="range" name="" id="monto-inversion">
+                            </div>
+                            <div class="col-3">
+                                    <label for="">$ 0.0</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="">Tasa de Interes:</label>
+                            </div>
+                            <div class="col-3">
+                                <label id="tasa-interes" for="">0.0%</label>
+                            </div>
+                            <div class="col-3">
+                                    <label for="">GAT:</label>
+                            </div>
+                            <div class="col-3">
+                                <label for="">0.0% </label>
+                            </div>
+                        </div>
+                        <div id="resultado-inversion" class="row">
+                                <div class="col-12">
+                                    <table class="table table-responsive">
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th>Tasa</th>
+                                            <th>Interes</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Monto Exento de ISR</td>
+                                            <td>
+                                                <label id="monto-extento-isr"for="">$0.00</label>
+                                            </td>    
+                                            <td>
+                                                <label id="tasa-exento-isr"for="">0.00%</label>
+                                            </td>    
+                                            <td>
+                                                <label id="interes-exento-ganado-isr"for="">0.00%</label>
+                                            </td>                             
+                                        </tr>
+        
+                                        <tr>
+                                                <td>Monto Gravado con ISR</td>
+                                                <td>
+                                                    <label id="monto-gravado-isr"for="">$0.00</label>
+                                                </td>    
+                                                <td>
+                                                    <label id="tasa-gravado-isr"for="">0.00%</label>
+                                                </td>    
+                                                <td>
+                                                    <label id="interes-gravado-ganado-isr"for="">0.00%</label>
+                                                </td>                             
+                                            </tr>
+                                            
+                                    </table>
+                                </div>
+                            </div>
+
+                        <div id="ganancia-inversion" class="row">
+                                <div class="row-12">
+                                    <table class="table table-responsive">
+                                        <tr>
+                                            <td></td>
+                                            <td></td>                                    
+                                        </tr>
+                                        <tr>
+                                            <td>Intereses Brutos al Final del Plazo:</td>
+                                            <td><label id="interes-bruto" for="">$0.00</label></td>                                    
+                                        </tr>
+                                        <tr>
+                                            <td>ISR Retenido:</td>
+                                            <td><label for="isr-retenido" id="id">$0.00</label></td>                                    
+                                        </tr>
+                                        <tr>
+                                            <td>Intereses Netos al Final del Plazo: </td>
+                                        <td><label id="interes-neto" for="">$0.00</label></td>                                    
+                                        </tr>
+                                        <tr>
+                                            <td>Neto a Recibir al Final del Plazo:</td>
+                                            <td><label id="montoneto" for="">$0.00</label></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                    </div>
+                    
+
+                    
+                    <div class="col-3">
+                        <h4>
+                                GAT: Ganancia Anual Total Neta antes de impuestos y para fines de comparación.
+                        </h4>
+                        <p>
+                                
+                                Tasas Fijas de interés anuales simples antes de impuestos sujetas a cambio sin previo aviso. Tasas vigentes al 31 de Diciembre de 2017. Todos los montos están expresados en Moneda Nacional.
+                                
+                                Sus datos están protegidos, ponemos a su disposición nuestro aviso de privacidad en esta misma página.
+                        </p>
+                    </div>
+                </div>
+                <div class="row"></div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </footer>
+        <div class="row"></div>
+    </div>
     
 
     <!-- Optional JavaScript -->
